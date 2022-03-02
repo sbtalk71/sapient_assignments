@@ -1,5 +1,10 @@
 package enums;
 
+/*interface MyOrderStatus{
+	public static final int ORDER_CREATED=1;
+	
+}*/
+
 public enum OrderStatus {
 
 	ORDER_CREATED,
