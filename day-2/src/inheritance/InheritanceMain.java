@@ -14,6 +14,12 @@ public class InheritanceMain {
 		TraineeEmployee te= new TraineeEmployee(102, "Rinku", 56000, "good");
 		System.out.println(te.getDetails());
 		
+		
+		Person p1;
+		p1=e;
+		
+		p1=te;
+		
 	}
 
 }
