@@ -11,8 +11,17 @@ public enum OrderStatus {
 
 enum PaymentStatus{
 	
-	PAYMENT_COMPLETED,
-	PAYMENT_FAILED
+	PAYMENT_COMPLETED(1),
+	PAYMENT_FAILED(2);
+	
+	int status;
+
+	private PaymentStatus(int status) {
+		this.status = status;
+	}
+	
+	
+	
 }
 
 
