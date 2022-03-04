@@ -5,7 +5,8 @@ public class Box {
 	private int length;
 	private int breadth;
 	private int height;
-	String color="no color";
+	private String color="no color";
+	private double weight;
 
 	public Box(int length, int breadth, int height) {
 		System.out.println(" 3 param constructor");
@@ -19,6 +20,15 @@ public class Box {
 		this(length,breadth,height);
 		System.out.println(" 4 param constructor");
 		this.color=color;
+		
+		
+
+	}
+	
+	public Box(int length, int breadth, int height,String color,double weight) {
+		this(length,breadth,height,color);
+		System.out.println(" 4 param constructor");
+		this.weight=weight;
 		
 		
 

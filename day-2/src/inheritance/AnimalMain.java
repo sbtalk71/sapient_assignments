@@ -11,9 +11,12 @@ public class AnimalMain {
 		
 		Animal animal;
 		animal=fido;
+		System.out.println(animal.getClass().getName());
 		animal.talk();
 		
 		animal=tom;
+		
+		System.out.println(animal.getClass().getName());
 		animal.talk();
 		
 		
