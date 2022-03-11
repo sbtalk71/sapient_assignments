@@ -1,4 +1,9 @@
+collections\ex\PersonDB.class
+collections\MapDemo.class
+collections\VectorDemo.class
+collections\app\Person.class
+collections\app\PersonApp.class
 collections\SetDemo.class
+collections\app\PersonDB.class
 collections\App.class
 collections\ListDemo.class
-collections\VectorDemo.class

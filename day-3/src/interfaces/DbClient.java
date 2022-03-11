@@ -13,8 +13,10 @@ public class DbClient {
 		 * System.out.println(db.mySqlDBInfo());
 		 */
 		
-		MyConnection db= new MySQLDB2();
+		//MyConnection db= new MySQLDB2();
 		//MyConnection db=(MyConnection)Class.forName("interfaces.OracleDB2").newInstance();
+		
+		MyConnection db=DBManager.getDB("oracle");
 		
 		System.out.println(db.getConnectionInfo());
 		System.out.println(db.getDBInfo());
