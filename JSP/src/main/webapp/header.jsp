@@ -1,3 +1,3 @@
 
-	<h2>ABC Co Ltd</h2>
+	<h2>XYZ Consulting Ltd.</h2>
 	<hr>
